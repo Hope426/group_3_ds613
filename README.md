@@ -5,7 +5,7 @@ Title: Building and Deploying a Predictive Machine Learning Model on Hugging Fac
  Members OF Group 3
 1. **[Name]** - [Student ID]
 2. **[VICTORY EZEALA]** - [25120133011]
-3. **[Name]** - [Student ID]
+3. **[Akudike Hope Ezeibe]** - [25120133012]
 4. **[Name]** - [Student ID]
 5. **[Name]** - [Student ID]
 
