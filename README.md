@@ -1,17 +1,17 @@
-# group_3_ds613
- MACHINE LEARNIING GROUP PROJECT
-Title: Building and Deploying a Predictive Machine Learning Model on Hugging Face
+# MACHINE LEARNIING GROUP PROJECT
+
+# Title: Building and Deploying a Predictive Machine Learning Model on Hugging Face
 
  Members OF Group 3
 1. **[Name]** - [Student ID]
 2. **[VICTORY EZEALA]** - [25120133011]
-3. **[Name]** - [Student ID]
+3. **Ladipo Ipadeola**
 4. **[Name]** - [Student ID]
 5. **[Name]** - [Student ID]
 
 ---
 
- Project Overview
+## Project Overview
 This project aims to automate the loan eligibility process (real-time) based on customer details provided while filling out online application forms. We developed a supervised machine learning model using **Random Forest** to predict whether a loan should be **Approved (Y)** or **Rejected (N)**.
 
 The final model is deployed as a web application using **Gradio** on **Hugging Face Spaces**.
