@@ -1,1 +1,16 @@
 # TODO 
+
+# Check the dimensions (Rows, Columns)
+print(f"Shape of processed data: {features_final_df.shape}")
+
+# Look at the first row to see if it's all numbers
+print("Sample processed row:")
+print(features_final_df[0])
+
+# Get feature names from the transformer
+feature_names = data_trans_preprocessor.get_feature_names_out()
+
+# Create a final DataFrame for verification
+X_final_df = pd.DataFrame(features_final_df, columns=feature_names)
+
+print(X_final_df.head())
