@@ -14,3 +14,13 @@ feature_names = data_trans_preprocessor.get_feature_names_out()
 X_final_df = pd.DataFrame(features_final_df, columns=feature_names)
 
 print(X_final_df.head())
+
+
+# Visual Confusion Matrix
+plt.figure(figsize=(5, 4))
+sns.heatmap(confusion_matrix(y_val, y_pred), annot=True, fmt='d', cmap='Blues')
+plt.title('Confusion Matrix')
+plt.ylabel('Actual')
+plt.xlabel('Predicted')
+plt.show()
+
