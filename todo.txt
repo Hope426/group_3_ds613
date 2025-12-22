@@ -1,1 +1,9 @@
 # TODO 
+
+
+5. Credit History Impact (Crucial for Loans)
+In most loan datasets, Credit_History is the strongest predictor.
+
+Analysis: Create a cross-tabulation between Credit_History and Loan_Status.
+
+What to look for: What percentage of people with Credit_History == 0 (bad history) still got a loan? If it's 0%, this feature is your "Golden Feature."
