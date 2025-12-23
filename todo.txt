@@ -5,3 +5,5 @@
 # Model Eval
 # ROC curve
 # 
+
+pip freeze requirements.txt
