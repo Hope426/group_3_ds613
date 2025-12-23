@@ -4,7 +4,6 @@ from pathlib import Path
 
 import gradio as gr
 import pandas as pd
-
 from predictor import predict_one, predict_batch
 
 

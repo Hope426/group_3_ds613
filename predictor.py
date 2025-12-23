@@ -2,12 +2,12 @@ from __future__ import annotations
 from typing import Dict, Any
 import pandas as pd
 import joblib
-
+import sys
 from sklearn.preprocessing import FunctionTransformer
 import numpy as np
 
-# Define feature engineering function
 
+# Define feature engineering function
 
 def feature_engineering(df):
     df = df.copy()
@@ -49,6 +49,14 @@ feature_eng = FunctionTransformer(
     validate=False,
     feature_names_out=feature_names_out
 )
+
+
+
+# Expose the function under __main__ so unpickler can find it
+if "__main__" in sys.modules:
+    sys.modules["__main__"].feature_engineering = feature_engineering
+    #sys.modules["__main__"].feature_eng = feature_eng
+    sys.modules["__main__"].feature_names_out = feature_names_out
 
 # Load the preprocessor and model
 
