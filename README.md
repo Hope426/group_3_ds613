@@ -7,7 +7,7 @@
 2. **VICTORY EZEALA** 
 3. **Akudike Hope Ezeibe** 
 4. **Green Emmanuel**
-5. 
+5. **Ladepo Fola**
 
 ---
 
@@ -62,4 +62,5 @@ To run this project locally:
 
 
    ```bash
-   git clone [GITHUB_REPO_LINK]
+   git clone https://github.com/Hope426/group_3_ds613.git
+   ```
