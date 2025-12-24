@@ -42,7 +42,7 @@ def _safe_log(series: pd.Series) -> np.ndarray:
 def feature_engineering(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
 
-    # In training, Dependents was later converted to numeric
+
     df["Dependents"] = df["Dependents"].replace("3+", "3")
     df["Dependents"] = pd.to_numeric(df["Dependents"], errors="coerce")
 
@@ -75,7 +75,6 @@ def _normalize_input(df: pd.DataFrame) -> pd.DataFrame:
 
     df = df[EXPECTED_INPUT_COLS]
 
-    # Keep these numeric where they should be numeric
     df["ApplicantIncome"] = pd.to_numeric(df["ApplicantIncome"], errors="coerce")
     df["CoapplicantIncome"] = pd.to_numeric(df["CoapplicantIncome"], errors="coerce")
     df["LoanAmount"] = pd.to_numeric(df["LoanAmount"], errors="coerce")

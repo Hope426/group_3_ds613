@@ -213,3 +213,13 @@ __marimo__/
 anaconda_projects/db/*.db
 
 final_submission.csv
+
+# model artifacts
+artifacts/
+*.joblib
+*.pkl
+*.pickle
+*.db
+.ipynb_checkpoints/
+.DS_Store
+**/.DS_Store
