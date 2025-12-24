@@ -211,3 +211,5 @@ __marimo__/
 
 .DS_Store
 anaconda_projects/db/*.db
+
+final_submission.csv
