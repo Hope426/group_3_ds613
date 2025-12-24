@@ -5,6 +5,8 @@ import joblib
 import sys
 from sklearn.preprocessing import FunctionTransformer
 import numpy as np
+from sklearn import set_config
+set_config(transform_output="pandas")
 
 
 # Define feature engineering function
@@ -55,8 +57,8 @@ feature_eng = FunctionTransformer(
 # Expose the function under __main__ so unpickler can find it
 if "__main__" in sys.modules:
     sys.modules["__main__"].feature_engineering = feature_engineering
-    #sys.modules["__main__"].feature_eng = feature_eng
     sys.modules["__main__"].feature_names_out = feature_names_out
+    sys.modules["__main__"].feature_eng = feature_eng
 
 # Load the preprocessor and model
 
