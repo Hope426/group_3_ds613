@@ -1,12 +1,13 @@
-# MACHINE LEARNIING GROUP PROJECT
+# MACHINE LEARNING GROUP PROJECT
 
 # Title: Building and Deploying a Predictive Machine Learning Model on Hugging Face
 
  Members OF Group 3
-1. **VICTORY EZEALA** - [25120133011]
-2. **Ladipo Ipadeola**
-3. **Akudike Hope Ezeibe** - [25120133012]
-4. **Green Emmanuel** - [25120133013]
+1. **Ladipo Ipadeola**
+2. **VICTORY EZEALA** 
+3. **Akudike Hope Ezeibe** 
+4. **Green Emmanuel**
+5. 
 
 ---
 
